@@ -29,5 +29,6 @@ for (let i = 0; i < rounds; i++){
     gameTies++;
     alert("its a tie!");
     }
-} 
-alert('losses:' + $(gameLosses),'wins:' + $(gameWins), 'ties:' + $(gameTies))
+}
+
+alert(`wins: ${gameWins}, losses: ${gameLosses}, ties: ${gameTies}`);
